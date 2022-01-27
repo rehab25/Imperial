@@ -1,0 +1,492 @@
+a{
+	transition: all .5s ease-in-out;
+}
+
+
+
+
+/* ============== start slider =============== */
+
+.slider{
+	height: 600px;
+	width: 100%;
+	background-size: contain;
+	color: #fff;
+}
+
+.slider .black{
+	background: rgba(0,0,0,.7);
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider .black .words h1{
+	font-family: 'Brush Script MT';
+	color: #fff;
+	font-size: 120px;
+	margin-bottom: 20px;
+}
+.slider .black .words h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.slider .black .words p{
+	color: #8c8c8c;
+	font-size: 30px;	
+}
+
+.slider .black .words .btn-primary{
+	background-color: #35d0ef;
+	border:5px solid #35d0ef;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-size: 17px;
+	margin:30px 15px
+}
+.slider .black .words .btn-primary:hover{
+	background:none;
+	border:5px solid #fff;
+}
+.slider .black .words .btn-secondary{
+	background:none;
+	border:5px solid #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-size: 17px;
+	margin:30px 15px
+}.slider .black .words .btn-secondary:hover{
+	background-color: #35d0ef;
+	border:5px solid #35d0ef;
+}
+@media (max-width:485px){
+	.slider .black .words h1{
+	font-size: 85px;
+	}
+}
+
+/* ============== end slider =============== */
+
+
+/* ============== start navbar =============== */
+.navbar-expand-lg {
+	background-color: #111;
+	color: #fff;
+	padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	margin-left: 20px
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #35d0ef;
+}
+
+
+.navbar .h1{
+	font-family: 'Brush Script MT';
+	color: #35d0ef;
+	font-size: 3rem;
+}
+.navbar button{
+	background-color: #fff;
+}
+/* ============== end navbar =============== */
+
+
+/* ============== start aboutUS =============== */
+.aboutUS{
+	padding: 60px 0;
+}
+
+.aboutUS .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.aboutUS hr{
+	width: 7%;
+	height: 1px;
+	background-color: #35d0ef;	
+}
+.aboutUS p{
+	color: #666;
+	font-size: 17px;
+	
+}
+.aboutUS .about-body{
+	margin: 50px 0;
+}
+.aboutUS .about-body .body-left img{
+	height: 100%;
+	width: 100%;
+}
+.aboutUS .about-body .body-right h2{
+	margin: 20px 0;
+	color: #333;
+	font-weight: bold
+}
+.aboutUS .about-body .body-right p{
+	line-height: 1.8;
+}
+/* ============== end aboutUS =============== */
+
+
+/* ============== start OurServices =============== */
+.OurServices{
+	
+}
+ .OurServices .black{
+	background:rgba(255, 255, 255, 0.9);
+	 padding: 60px 0;
+}
+.OurServices .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.OurServices hr{
+	width: 7%;
+	height: 1px;
+	background-color: #35d0ef;	
+}
+.OurServices p{
+	color: #666;
+	font-size: 17px;
+}
+.OurServices .OurServices-body{
+	margin-top: 30px;
+}
+.OurServices .OurServices-body i{
+	float: left;
+	font-size: 20px;
+	padding: 15px 20px;
+	margin-right: 15px;
+	background-color: #35d0ef;
+	border-radius: 50%;
+	color: #fff;
+}
+.OurServices .OurServices-body h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 19px;
+}
+.OurServices .OurServices-body p{
+	margin-left: 75px;
+	margin-top: 12px;
+	margin-bottom: 40px;
+}
+.Subscribe{
+	color: #fff;
+}
+.Subscribe .black{
+	padding: 70px 70px;
+	background: rgba(0,0,0,.6);
+}
+.Subscribe .h1{
+	font-weight: bold;
+}
+.Subscribe p{
+	font-size: 15px;
+	margin-top: 20px
+}
+.Subscribe button{
+	padding: 10px 30px;
+	background: none;
+	border: 5px solid #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.Subscribe button:hover{
+	background: #35d0ef;
+	border: 5px solid #35d0ef;
+}
+/* ============== end OurServices =============== */
+
+/* ============== start Portfolio =============== */
+.Portfolio{
+	padding: 60px 0;
+}
+
+.Portfolio .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.Portfolio hr{
+	width: 7%;
+	height: 1px;
+	background-color: #35d0ef;	
+}
+.Portfolio p{
+	color: #666;
+	font-size: 17px;
+	margin-bottom: 40px;
+	
+}
+.Portfolio .total{
+	height: 300px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.Portfolio .total img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+.Portfolio .total .blackk{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 444;
+	top: 0;
+	left: 0;
+	transition: 0.3s;
+}
+.Portfolio .total .blackk:hover{
+	cursor: pointer;
+	background: rgba(255,255,255,.7);
+}
+.Portfolio .total .blackk h3{
+	display: none;
+	margin-top: 120px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #333333;
+}
+.Portfolio .total .blackk:hover h3{display: block}
+.Portfolio .total .blackk p{
+	display: none;
+	font-size: 16px;
+	color: #666;
+	margin-top: 5px;
+}
+.Portfolio .total .blackk:hover p{display: block}
+
+/* 
+
+.Portfolio .total :hover .black{
+	display: block;
+	cursor: pointer
+}
+.Portfolio .total .black h3{
+	font-size: 17px;
+	font-weight: bold;
+	color: #333333;
+	
+}
+.Portfolio .total .black p{
+	font-size: 16px;
+	color: #666;
+}
+
+*/
+
+/* ============== end Portfolio =============== */
+
+
+/* ============== start Testimonials =============== */
+.Testimonials{
+	padding: 60px 0 120px 0;
+	background-color: #f6f6f6;
+}
+.Testimonials .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.Testimonials hr{
+	width: 7%;
+	background-color: #35d0ef;
+	height: 1px;
+}
+.Testimonials p{
+	color: #666;
+	font-size: 17px;
+	
+}
+.Testimonials .Testimonials-body{
+	margin-top: 50px;
+}
+.Testimonials .Testimonials-body .img{
+	height: 290px;
+	margin-top: 20px;
+}
+.Testimonials .Testimonials-body .img img{
+	border-radius: 50%;
+	border: 7px solid #fff;
+	height: 100%;
+	width: 80%;
+}
+.Testimonials .Testimonials-body .img h3{
+	color: #35d0ef;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 0
+}
+.Testimonials .Testimonials-body .img p{
+	margin-bottom: 20px;
+}
+.Testimonials .Testimonials-body .divp{
+	margin-top:70px;
+	padding: 55px 36px;
+	background-color: #fff;
+	border-radius: 5px;
+	min-height: 200px;
+}
+.Testimonials .Testimonials-body .divp p{
+	line-height: 1.8;
+	font-style: italic;	
+}
+
+@media(max-width:767px ){
+	.Testimonials .Testimonials-body .img{
+		margin-top: 20px;
+	}	
+}
+/* ============== end Testimonials =============== */
+
+/* ============== start OurTeam =============== */
+.OurTeam{
+	padding: 60px;
+}
+
+.OurTeam .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.OurTeam hr{
+	height: 1px;
+	width: 7%;
+	background-color: #35d0ef
+}
+.OurTeam p{
+	color: #666;
+	font-size: 17px;
+}
+.OurTeam .OurTeam-body{
+	margin-top: 50px;
+}
+.OurTeam .OurTeam-body .img{
+	width: 90%;
+}
+.OurTeam .OurTeam-body .img img{
+	width: 100%
+}
+.OurTeam .OurTeam-body h3{
+	font-weight: bold;
+	color: #666;
+	font-size: 18px;
+	margin: 15px 0 0 0;
+}
+.OurTeam .OurTeam-body p{
+	font-size: 15px;
+	font-style: italic;
+	margin: 1px 0;
+}
+.OurTeam .OurTeam-body i{
+	color: #b3b3b3;
+	margin: 0 2px 30px 0;
+}
+.OurTeam .OurTeam-body i:hover{
+	cursor: pointer;
+	color: #35d0ef
+}
+/* ============== end OurTeam =============== */
+
+
+/* ============== start ContactUs =============== */
+.ContactUs{
+	padding: 60px 0;
+	background-color: #f6f6f6;
+}
+.ContactUs .h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.ContactUs hr{
+	width: 7%;
+	background-color: #35d0ef;
+	height: 1px;
+}
+.ContactUs p{
+	color: #666;
+	font-size: 17px;
+	
+}
+.ContactUs form{
+	margin-top: 60px;
+}
+
+
+.ContactUs form i{
+	color: #35d0ef;
+	margin-top: 10px;
+}
+.ContactUs form label{
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #333333
+}
+
+
+.ContactUs form input{
+	margin: 10px 0;
+}
+
+.ContactUs form button{
+	padding: 10px 20px;
+	background-color: #35d0ef;
+	border-color: #35d0ef;
+	font-size: 18px;
+	margin: 15px 0
+}
+.ContactUs form button:hover{
+	background-color: #2de2fe;
+	border-color: #2de2fe;
+}
+/* ============== end ContactUs =============== */
+
+
+/* ============== start footer =============== */
+
+.footer{
+	background-color: #111;
+	padding: 20px 0;
+	color: #fff;
+}
+.footer p{
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.footer p span{
+	font-weight: bold
+}
+.footer :nth-of-type(2){      /* the second p in footer */
+	font-size: 15px;
+	margin-top: 2px;
+	color: #ccc;
+}
+.footer p a{
+	color: #2de2fe;
+}
+.footer p a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+/* ============== end footer =============== */
+
+
+
